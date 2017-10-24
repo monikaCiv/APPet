@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^pets/$ /zavrsni_rad/pets/pets.php 
+RewriteRule ^pets/([0-9]+)/$ /zavrsni_rad/pets/pet.php?id=$1
+RewriteRule ^pets/recommend/([0-9]+)/$ /zavrsni_rad/pets/recommend.php?id=$1
+RewriteRule ^zavrsni_rad/(pets/[0-9]+)$ /$1/ [R=301]
+
+
+

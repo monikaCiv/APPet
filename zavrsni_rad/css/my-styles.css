@@ -1,0 +1,347 @@
+@charset "UTF-8";
+/* TOP BAR
+==========================================*/
+
+
+.top-bar-section li a:not(.button) {
+    font-family: 'Poiret One', sans-serif;
+	font-size: 16px;
+  }
+
+.top-bar-section li a:not(.button):hover {
+ background-color: #363636;
+}
+
+.top-bar-section ul.right li.active > a { 
+    background-color: #4181A1;
+    color: white;
+}
+
+
+
+/*BUTTONS
+==========================================*/
+.button {
+	background-color: black;
+	padding: 15px 30px;
+	display: inline-block;
+	font-family: 'Poiret One', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: white;
+	border: 0px;
+}
+
+.no2 {
+	background-color: #FF3B19;
+}
+
+.no3 {
+	background-color: #00B233;
+	margin-right: 60px ;
+}
+
+.no4 {
+	background-color: #734F7F;
+}
+
+.no5 {
+	background-color: #4181A1;
+	margin-top: 10px;
+}
+
+.no6 {
+	background-color: #1CBFA5;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.no7 {
+	background-color: white;
+	border: solid 1px gray;
+	display: inline-block;
+	color: black;
+	width: 320px;
+	margin-right: 20px;
+}
+
+.no8 {
+	background-color: black;
+	width: 24px;
+	height: 24px;
+	padding: 0px 0px 0px 7px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.no10 {
+	background-color: #1CBFA5;
+	margin-right: 20px;
+}
+
+.no11 {
+	background-color: #1CBFA5;
+}
+
+.no12 {
+	background-color: #1CBFA5;
+}
+
+.button-group {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pet-det {
+	margin-right: 15px;
+}
+
+.button:hover {
+	background-color: #363636;
+}
+
+.no7:hover {
+	border-radius: 2px;
+	border: solid 1px #363636;
+}
+
+/* ICON FONTS
+==========================================*/
+
+.fi-x {
+	color: white;
+	font-size: 14px;
+}
+
+.fi-pencil {
+	color: white;
+	font-size: 12px;
+}
+
+.fi-pencil {
+	color: white;
+	font-size: 16px;
+	margin-left: -3px;
+}
+
+[class*="fi-"] {
+	margin-right: 8px;
+}
+
+/* LISTS
+===========================================*/
+
+.link-list {
+	list-style-type: none;
+	font-size: 14px;
+}
+
+.link-list a {
+	text-decoration: none;
+	color: gray; 
+}
+
+.link-list a:hover {
+	text-decoration: none;
+	color: black; 
+}
+
+.pet-list {
+	list-style-type: none;
+	margin-top: 50px;
+}
+
+.pet-list a {
+	color: black;
+	font-size: 18px;
+}
+
+/* FORMS 
+===========================================*/
+
+.field1 {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.field2 {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: #EB0000;
+}
+
+fieldset {
+	margin: 20px;
+}
+
+#label2 {
+	margin-bottom: 20px;
+}
+.radio2 {
+	margin-bottom: 20px;
+ }
+
+/* TYPOGRAPHY
+========================================*/
+
+h1 {
+	font-family: 'Poiret One', sans-serif;
+	
+}
+
+h2, h3 {
+	font-family: 'Poiret One', sans-serif;	
+	margin-bottom: 24px;
+	margin-left: 20px;
+}
+
+h4 {
+	font-family: 'Poiret One', sans-serif;
+}
+
+.pet-details {
+	font-size: 14px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+.copyright {
+	font-size: 14px;
+	color: gray;
+}
+
+.headline {
+	margin-top: 30px;
+}
+
+.pass {
+	color: gray;
+	font-size: 12px;
+	text-decoration: underline;
+	margin-left: 140px;
+}
+
+.about {
+	font-size: 14px;
+	color: gray;
+	font-family: sans-serif;
+	margin-bottom: 0px;
+}
+.profile {
+	margin-bottom: 50px;
+	margin-top: 70px;
+}
+.added {
+	margin-top: 100px;
+}
+
+
+
+/* IMAGES
+============================================*/
+
+#main-img {
+	margin: 10px 0 50px 0;
+}
+
+#add {
+	color: white;
+}
+
+.submit1 {
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+
+.term {
+	margin-bottom: 70px;
+	margin-top: 120px;
+}
+
+.term2 {
+	margin-bottom: 100px;
+	margin-top: 10px;
+}
+
+#login {
+	margin-bottom: 0px;
+	margin-top: 30px;
+}
+
+#choose {
+	margin-bottom: 60px;
+}
+
+.recommend {
+	margin-top: 60px;
+}
+
+.choose2 {
+	margin-top: 60px;
+}
+
+#add_pet {
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+#contact {
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+
+.ab {
+	margin-top: 30px;
+}
+
+.pets {
+	margin-top: 90px;
+}
+
+.ab2 {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.foot {
+	margin-top: 70px;
+}
+
+
+
+/* BREADCRUMBS
+==============================================*/
+
+.breadcrumbs2 {
+	border-style: none;
+	border-size: 0px;
+	background-color: white;
+	margin-bottom: 40px;
+}
+
+/* MEDIA QUERIES
+==============================================*/
+
+@media (max-width: 330px) {
+	.no7 {
+		width: 200px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
